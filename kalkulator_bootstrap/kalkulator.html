@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        #calculator {
+            max-width: 470px;
+        }
+    </style>
+    <title>Kalkulator</title>
+  </head>
+  <body>
+    <div class="d-flex flex-column p-2 bd-highlight my-0 mx-auto text-end shadow-sm p-3 mb-5 bg-body rounded" id="calculator">
+        <div class="mw-100 py-2 px-3 bg-dark bg-gradient border border-2 border-primary">
+            <h1 class="text-white fs-1" id="displayNumber">0</h1>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button clear"><a href="#" class="pe-auto text-decoration-none text-dark">AC</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button operator"><a href="#" class="pe-auto text-decoration-none text-dark">%</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button operator"><a href="#" class="pe-auto text-decoration-none text-dark">÷</a></div>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">7</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">8</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">9</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 bg-warning border-dark button operator"><a href="#" class="pe-auto text-decoration-none text-dark">x</a></div>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">4</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">5</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">6</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button operator"><a href="#" class="pe-auto text-decoration-none text-dark">-</a></div>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">1</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">2</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">3</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button operator"><a href="#" class="pe-auto text-decoration-none text-dark">+</a></div>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button zero"><a href="#" class="pe-auto text-decoration-none text-white">0</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-dark bg-gradient button"><a href="#" class="pe-auto text-decoration-none text-white">.</a></div>
+            <div class="p-2 flex-grow-1 bd-highlight text-center border border-2 border-dark bg-warning button equals double"><a href="#" class="pe-auto text-decoration-none text-dark">=</a></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="kalkulator.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
