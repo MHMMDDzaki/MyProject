@@ -1,0 +1,109 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    background-color: orange;
+}
+
+.awal-merah{
+    color:red;
+}
+
+.awal-hijau{
+    color:green;
+    
+}
+
+#awal {
+    margin-bottom: 20px;
+}
+
+.judul {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: lightblue;
+}
+
+.warna {
+    color: gold;
+}
+
+.flex {
+    display: flex;
+    background-color: orange;
+}
+
+.pre-container1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.pre-container2{
+    margin-left: 200px;
+}
+
+.container {
+    width: 100px;
+    margin-left: 28px;
+}
+
+.container button {
+    position: absolute;
+    left: 23px;
+    width: 18px;
+    height: 18px;
+}
+
+.container2 {
+    width: 100px;
+    margin-left: 25px;
+}
+
+.container2 button {
+    position: absolute;
+    left: 23px;
+    width: 18px;
+    height: 18px;
+}
+
+.container3 {
+    width: 100px;
+    margin-left: 28px;
+}
+
+.container3 button {
+    position: absolute;
+    left: 23px;
+    width: 18px;
+    height: 18px;
+}
+
+.skor {
+    margin: 10px 0px 10px 0px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.aturan h2{
+    margin-bottom: 10px;
+}
+
+.aturan ul{
+    margin-left: 10px;
+}
+
+.trailer {
+    margin-top: 20px;
+}
+
+#trail {
+    text-align: center;
+    margin-bottom: 20px;
+}

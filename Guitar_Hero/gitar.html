@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guitar Hero alaalala</title>
+    <link rel="stylesheet" href="cssgitar.css"/>
+  </head>
+  <body>
+    <div class="judul">
+      <h1>Guitar Hero Ala Ala <span class="warna">Deluxe Edition</span></h1>
+    </div>
+      <div class="flex">
+        <div class="pre-container1">
+          <h2 id="awal" class="awal-merah">Wait For It</h2>
+          <div class="container">
+            <button onclick=tambah()>+</button>
+            <div id="belt">
+            </div>
+          </div>
+          <br/>
+          <div></div>
+          <div class="container2">
+            <button onclick=kurang()>-</button>
+            <div id="belt2">
+            </div>
+          </div>
+          <br/>
+          <div></div>
+          <div class="container3">
+            <button onclick=kali()>x</button>
+            <div id="belt3">
+            </div>
+          </div>
+          <br>
+          <button onclick=cek()>cek</button>
+          <button onclick=reset()>ulang</button>
+          <p class="skor">skor : <span id="hasil">0</span></p>
+          <p id="test"></p>
+          <div class="footer">
+            <div class="aturan">
+              <h2>Rules : </h2>
+              <ul>
+                  <li>Tunggu Tulisan Menjadi Game Start Baru Game Dapat Dimulai</li>
+                  <li>Baris Pertama Untuk Fungsi Tambah</li>
+                  <li>Baris Kedua Untuk Fungsi Kurang</li>
+                  <li>Baris Ketiga Untuk Fungsi Perkalian</li>
+                  <li>Jika Terkena Tanda "-" Maka Nilai Akan Kembali 0</li>
+                  <li>Jika Nilai Sudah Mencapai 40 Maka Pemain Harus melakukan cek</li>
+                  <li>jika Nilai Kurang Atau Lebih dari 40 Maka Nilai Akan menjadi 0</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="pre-container2">
+          <div class="trailer">
+            <h3 id="trail">Music Video</h3>
+            <iframe id="video" width="735px" height="415" src="https://www.youtube.com/embed/yVKDY2pl0Io?autoplay=1&mute="></iframe>
+        </div>
+      </div>
+  </body>
+
+  <script type="text/javascript" src="jsgitar.js"></script>
+</html>
